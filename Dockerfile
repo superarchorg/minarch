@@ -38,7 +38,7 @@ COPY --from=arch /usr/bin/pacman-static /usr/bin/pacman
 COPY --from=arch /etc/pacman.conf /etc/pacman.conf
 COPY --from=arch /etc/pacman.d /etc/pacman.d
 COPY --from=arch /var/lib/pacman/sync /var/lib/pacman/sync
-#COPY --from=arch /home/aur/gnupg/gnupg/bin/gpg /usr/bin/gpg
+COPY --from=arch /home/aur/gnupg/gnupg/bin/gpg /usr/bin/gpg
 COPY --from=arch /etc/ca-certificates/extracted/tls-ca-bundle.pem \
   /etc/ssl/certs/ca-certificates.crt
 
