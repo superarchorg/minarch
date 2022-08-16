@@ -1,5 +1,5 @@
 FROM archlinux/archlinux:base-devel as arch
-LABEL maintainer="<docker@superarch.org>"
+LABEL maintainer="<dev@superarch.org>"
 
 RUN sudo pacman-key --init
 
