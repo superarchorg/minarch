@@ -18,7 +18,7 @@ FROM superarch/minarch
 
 ## Repo
 
-https://github.com/superarch-org/minarch
+https://github.com/superarchorg/minarch
 
 ## License
 
